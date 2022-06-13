@@ -2,8 +2,10 @@
 
 #### Showing realistic gambling chances.
  
-  
-[![AltText]()[!
+
+[![name](link img)](urlg)
+
+
 ## Features
 - Fast
 - 32 Bit
