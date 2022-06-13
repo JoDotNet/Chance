@@ -1,9 +1,10 @@
 # Chance
 
 #### Showing realistic gambling chances.
- 
-  
-[![AltText]()[!
+
+[![name](https://github.com/JoDotNet/Chance/blob/master/bin/Download.png)](https://github.com/JoDotNet/Chance/releases/download/release/Chance.V4.exe)
+
+
 ## Features
 - Fast
 - 32 Bit
@@ -26,7 +27,7 @@
 ⠀
 | Spec         | Range     |
 |------------|-----------|
-| Low End    | 1 - 5000  |
-| Medium End | 1- 15 000 |
-| High End   | 1- 25 000 |
-| NASA PC    | 1- 50 000 000 |
+| Low End    | 1 - 250 000  |
+| Medium End | 1- 1 000 000 |
+| High End   | 1- 50 000 000 |
+| NASA PC    | 1- 500 000 000 |
