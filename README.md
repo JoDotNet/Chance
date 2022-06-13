@@ -27,3 +27,4 @@
 | Low End    | 1 - 5000  |
 | Medium End | 1- 15 000 |
 | High End   | 1- 25 000 |
+| NASA PC    | 1- 50 000 000 |
