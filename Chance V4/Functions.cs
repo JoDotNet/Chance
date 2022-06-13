@@ -10,7 +10,7 @@ namespace Chance_V4
     internal class Functions
     {
 
-        public double percentage = 0;
+        public int percentage = 0;
         public int tries = 0; 
         
         public int current = 0;
@@ -22,7 +22,7 @@ namespace Chance_V4
             Thread.Sleep(1);
             System.Random random = new System.Random();
 
-            double randomNum = random.NextDouble(0.0, 1.0);
+            int randomNum = random.Next(1, 100);
 
             Console.WriteLine(randomNum);
 
