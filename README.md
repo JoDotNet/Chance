@@ -21,7 +21,8 @@
 ## PC Recommendation Chart
 ##### *Please keep in mind that this is only the recommended range, this will be different for every computer.*
 
-
+⠀
+⠀
 | Spec         | Range     |
 |------------|-----------|
 | Low End    | 1 - 5000  |
