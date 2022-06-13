@@ -28,7 +28,7 @@
 ⠀
 | Spec         | Range     |
 |------------|-----------|
-| Low End    | 1 - 50 000  |
-| Medium End | 1- 250 000 |
-| High End   | 1- 500 000 |
+| Low End    | 1 - 250 000  |
+| Medium End | 1- 1 000 000 |
+| High End   | 1- 50 000 000 |
 | NASA PC    | 1- 500 000 000 |
