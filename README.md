@@ -7,6 +7,8 @@
 
 ## Features
 - Fast
+- Easy to understand
+- Standard CMD Window
 - 32 Bit
 - Randomized Percentage Probability
 
@@ -22,7 +24,6 @@
  
 ## PC Recommendation Chart
 ##### *Please keep in mind that this is only the recommended range, this will be different for every computer.*
-
 ⠀
 ⠀
 | Spec         | Range     |
@@ -30,4 +31,4 @@
 | Low End    | 1 - 250 000  |
 | Medium End | 1- 1 000 000 |
 | High End   | 1- 50 000 000 |
-| NASA PC    | 1- 500 000 000 |
+| NASA   | 1- 500 000 000 |
