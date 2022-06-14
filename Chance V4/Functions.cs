@@ -17,6 +17,9 @@ namespace Chance_V4
 
         public int hits = 0;
 
+        public double strHits = 0.0;
+
+
         public void GenerateNumber()
         {
             Thread.Sleep(1);
@@ -75,7 +78,7 @@ namespace Chance_V4
 
             Console.Clear();
             Console.WriteLine("Tries is set to: " + triesStr);
-
+            strHits = Convert.ToDouble(tries) / 100 * 2.17;
 
             Thread.Sleep(1000);
             Console.Clear();
@@ -112,7 +115,11 @@ namespace Chance_V4
             Console.Clear();
 
             Console.WriteLine("Generating your results");
-            Thread.Sleep(250);
+
+            string stringingHits = strHits.ToString();
+
+            Console.WriteLine("Estimated Time: " + stringingHits + "s");
+            Thread.Sleep(750);
         }
 
         public void Result()
