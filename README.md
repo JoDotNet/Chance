@@ -1,34 +1,36 @@
 # Chance
 
-#### Showing realistic gambling chances.
+#### Realistic Chances.
 
-[![name](https://github.com/JoDotNet/Chance/blob/master/bin/Download.png)](https://github.com/JoDotNet/Chance/releases/download/release/Chance.V4.exe)
+              CHANCE TO NEWEST[![name](https://github.com/JoDotNet/Chance/blob/master/bin/Download.png)](https://github.com/JoDotNet/Chance/releases/download/release/Chance.V4.exe)
 
 
 ## Features
-- Fast
-- Easy to understand
 - Standard CMD Window
-- 32 Bit
-- Randomized Percentage Probability
+- 32bit
+- Randomized Probability
 
+## Upcomming Features
+- Percentage Probability Calculation
+- Decimal Version
+- Dice Rolling
+- Randomized Card
  
 ## How to use
 
-1. "Chance: " Select a number between 1 - 100(%)
-2. "Tries: " Select a number between 1 - 2.1 billion, (Check recommended chart below for your PC)
-3. You will be shown how many hits you got out of the total amount of tries
+1. Chance: Select a number between **1 - 100** (%)
+2. Tries:  Select a number between **1 - 2.1 billion**, (Check estimated time below.)
+3. Result: You will be shown how many **hits** you got out of the total amount of **tries**
 
 
  
  
-## PC Recommendation Chart
-##### *Please keep in mind that this is only the recommended range, this will be different for every computer.*
+## PC ETA Chart
+##### *Estimated time can vary a lot.*
 ⠀
 ⠀
-| Spec         | Range     |
-|------------|-----------|
-| Low End    | 1 - 250 000  |
-| Medium End | 1- 1 000 000 |
-| High End   | 1- 50 000 000 |
-| NASA   | 1- 500 000 000 |
+| Spec    | Amount of Tries | Estimated Time |
+|---------|-----------------|----------------|
+| Low     | 100             | 2.5s           |
+| Average | 100             | 2s             |
+| High    | 100             | 1.5s           |
