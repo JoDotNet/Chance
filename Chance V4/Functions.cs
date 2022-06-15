@@ -133,6 +133,9 @@ namespace Chance_V4
             //Console.WriteLine("Number of hits: " + resultHits + "out of " + resultTries + " tries");
             Console.WriteLine(resultHits + " hit" + " out of " + resultTries + " tries");
             Console.WriteLine("Percentage: " + resultPercentage);
+
+            Console.WriteLine("");
+            Console.WriteLine("Returning . . .");
         }
     }
 }

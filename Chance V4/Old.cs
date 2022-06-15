@@ -8,6 +8,14 @@ namespace Chance_V4
 {
     internal class Old
     {
+
+        /*
+        ERROR CODE LIST:
+
+            0x100 | User entered in none option in main menu.
+        */
+
+
         // 15.06.2022 | 15:33
         //Thread.Sleep(2500);
 

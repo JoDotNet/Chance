@@ -17,7 +17,7 @@ namespace Chance_V4
 
             while (current <= 58)
             {
-                Thread.Sleep(5);
+                Thread.Sleep(1);
 
                 Console.Write("-");
                 current = current + 1;
@@ -27,7 +27,6 @@ namespace Chance_V4
         public void Menu()
         {
             Console.Clear();
-            Thread.Sleep(250);
 
             string lineWrite = @"
   _____  _                               __      __ _  _   
@@ -48,32 +47,36 @@ namespace Chance_V4
 
             Console.WriteLine("");
 
-            Thread.Sleep(500);
+            Thread.Sleep(250);
 
             Console.WriteLine("Jo");
-            Thread.Sleep(250);
             Console.WriteLine("https://github.com/JoDotNet");
 
             LineCreation();
 
-            Thread.Sleep(500);
-            Console.WriteLine("");
             Console.WriteLine("");
             Console.WriteLine("");
 
 
 
-            Console.WriteLine("Options:");
+            //Console.WriteLine("Options:");
             Console.WriteLine("");
 
 
-            Console.WriteLine("1: Hits // Randomized Probability");
+            Console.WriteLine("1: Average Chance");
+
+            //Console.WriteLine("2: Probability Calculator (In Progress)");
+
+            Console.WriteLine("3: Random Dice");
+            //Console.WriteLine("4: Random Card (In Progress)");
+
+            Console.WriteLine("5: Random Number");
 
 
             Console.WriteLine("");
             Console.WriteLine("");
             Console.Write("What option do you desire?: ");
-            choice = Convert.ToInt32(Console.Read());
+            choice = Convert.ToInt32(Console.ReadLine());
 
             Options();
         }
@@ -87,13 +90,57 @@ namespace Chance_V4
             {
                 program.Choice1();
             }
+            else if (choice == 2)
+            {
+                //program.Choice2();
+                Menu();
+            }
+            else if (choice == 3)
+            {
+                program.Choice3();
+            }
+            else if (choice == 4)
+            {
+                program.Choice4();
+            }
+            else if (choice == 5)
+            {
+                program.Choice5();
+            }
             else
             {
-                choice = 0;
+                Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+
+                Thread.Sleep(2500);
+
+                Console.WriteLine("Returning.");
+                Thread.Sleep(250);
 
                 Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+                Console.WriteLine("Returning..");
+                Thread.Sleep(250);
 
-                // add an retrying animation... + errorcode.
+                Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+                Console.WriteLine("Returning...");
+                Thread.Sleep(250);
+
+                Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+                Console.WriteLine("Returning..");
+                Thread.Sleep(250);
+
+                Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+                Console.WriteLine("Returning.");
+                Thread.Sleep(250);
+
+                Console.Clear();
+                Console.WriteLine("Unexpected error occured | Code: 0x100");
+                Console.WriteLine("Returning");
+                Thread.Sleep(250);
 
                 Menu();
             }
