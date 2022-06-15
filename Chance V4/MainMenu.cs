@@ -9,6 +9,7 @@ namespace Chance_V4
 {
     internal class MainMenu
     {
+        public int choice = 0;
 
         public void LineCreation()
         {
@@ -16,7 +17,7 @@ namespace Chance_V4
 
             while (current <= 58)
             {
-                Thread.Sleep(10);
+                Thread.Sleep(5);
 
                 Console.Write("-");
                 current = current + 1;
@@ -26,7 +27,7 @@ namespace Chance_V4
         public void Menu()
         {
             Console.Clear();
-            Thread.Sleep(1000);
+            Thread.Sleep(250);
 
             string lineWrite = @"
   _____  _                               __      __ _  _   
@@ -49,11 +50,53 @@ namespace Chance_V4
 
             Thread.Sleep(500);
 
-            Console.WriteLine("By Jo");
+            Console.WriteLine("Jo");
             Thread.Sleep(250);
             Console.WriteLine("https://github.com/JoDotNet");
 
             LineCreation();
+
+            Thread.Sleep(500);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+
+            Console.WriteLine("Options:");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("1: Hits // Randomized Probability");
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.Write("What option do you desire?: ");
+            choice = Convert.ToInt32(Console.Read());
+
+            Options();
+        }
+
+        public void Options()
+        {
+            Functions func = new Functions();
+            Program program = new Program();
+
+            if (choice == 1)
+            {
+                program.Choice1();
+            }
+            else
+            {
+                choice = 0;
+
+                Console.Clear();
+
+                // add an retrying animation... + errorcode.
+
+                Menu();
+            }
         }
     }
 }

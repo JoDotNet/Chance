@@ -11,7 +11,7 @@
 - Randomized Probability
  
  
-## Upcomming Features
+## Upcoming Features
 - Percentage Probability Calculation
 - Decimal Version
 - Dice Rolling
