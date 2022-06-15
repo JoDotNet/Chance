@@ -2,28 +2,29 @@
 
 #### Realistic Chances.
 
-[![name](https://github.com/JoDotNet/Chance/blob/master/bin/Download.png)](https://github.com/JoDotNet/Chance/releases/download/release/Chance.V4.exe)
+[![name](https://github.com/JoDotNet/Chance/blob/master/bin/Download.png)](https://github.com/JoDotNet/Chance/releases/download/v1.2/Chance.V4.exe)
 
  
 ## Features
 - Standard CMD Window
 - 32bit
 - Randomized Probability
+- Dice Rolling
+- Random Number Generation
  
  
 ## Upcoming Features
 - Percentage Probability Calculation
 - Decimal Version
-- Dice Rolling
 - Randomized Card
  
  
  
 ## How to use
 
-1. Chance: Select a number between *1 - 100* (%)
-2. Tries:  Select a number between *1 - 2.1 billion*, (Check estimated time below.)
-3. Result: You will be shown how many *hits* you got out of the total amount of *tries*
+1. Chance: Select a number between **1 - 100** (%)
+2. Tries:  Select a number between **1 - 2.1 billion**, (Check estimated time below.)
+3. Result: You will be shown how many **hits** you got out of the total amount of **tries**
 
 
  
